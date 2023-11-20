@@ -1,0 +1,11 @@
+C:\Loymark\Subway\SincronizadorAPI\SincronizadorAPI\obj\Release\net6.0\PubTmp\Out\SincronizadorAPI.exe
+C:\Loymark\Subway\SincronizadorAPI\SincronizadorAPI\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Loymark\Subway\SincronizadorAPI\SincronizadorAPI\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Loymark\Subway\SincronizadorAPI\SincronizadorAPI\obj\Release\net6.0\PubTmp\Out\SincronizadorAPI.dll
+C:\Loymark\Subway\SincronizadorAPI\SincronizadorAPI\obj\Release\net6.0\PubTmp\Out\SincronizadorAPI.deps.json
+C:\Loymark\Subway\SincronizadorAPI\SincronizadorAPI\obj\Release\net6.0\PubTmp\Out\SincronizadorAPI.runtimeconfig.json
+C:\Loymark\Subway\SincronizadorAPI\SincronizadorAPI\obj\Release\net6.0\PubTmp\Out\SincronizadorAPI.pdb
+C:\Loymark\Subway\SincronizadorAPI\SincronizadorAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Loymark\Subway\SincronizadorAPI\SincronizadorAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Loymark\Subway\SincronizadorAPI\SincronizadorAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Loymark\Subway\SincronizadorAPI\SincronizadorAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
