@@ -64,14 +64,14 @@ namespace SincronizadorAPI.Repository
             return _db.SaveChanges() > 0 ? true : false;
         }
 
-        public void UpdateCliProcesado(cli_clientes cliente)
+        public void UpdateCliProcesado(decimal identificacion)
         {
             try
             {
-                var existingCliente = _db.cli_clientes.Find(cliente.CLI_IDENTIFICACION);
+                var existingCliente = _db.cli_clientes.Find(identificacion);
                 if (existingCliente != null)
                 {
-                    existingCliente.CLI_PROCESADO = cliente.CLI_PROCESADO;
+                    existingCliente.CLI_PROCESADO = "N";
                     _db.SaveChanges();
                 }
 

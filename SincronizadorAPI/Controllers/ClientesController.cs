@@ -114,5 +114,33 @@ namespace SincronizadorAPI.Controllers
                 return StatusCode(500, e.Message);
             }
         }
+
+        [HttpPost("/api/Clientes/UpdateCliCliente")]
+        public IActionResult Post([FromBody] ClienteIdentificacionDto clienteIdentificacion)
+        {
+            if (clienteIdentificacion.Identificacion == null)
+            {
+                return BadRequest();
+            }
+            try
+            {
+                var id = decimal.Parse(clienteIdentificacion.Identificacion);
+                using (var scope = _scopeFactory.CreateScope())
+                {
+                    var clienteRepository = scope.ServiceProvider.GetRequiredService<IClienteRepository>();
+
+                    clienteRepository.UpdateCliProcesado(id);
+
+                }
+
+                return Ok();
+
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e, "Ocurrió un error al obtener clientes");
+                return StatusCode(500, e.Message);
+            }
+        }
     }
 }
